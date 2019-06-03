@@ -1,0 +1,21 @@
+componentDidMount = () => {
+        $('button').click(function(e){
+            e.preventDefault();
+            const name = $('input[name="name"]').val();
+            const email = $('input[name="email"]').val();
+            const message = $('textarea[name="message"]').val();
+
+            $.ajax({
+                url: 'http://projects.crddeveloper.com/form.php', 
+                type: 'POST',
+                data: {name: name, email: email, message: message},
+                success: function() {
+                   alert('Enviado com Sucesso!')
+                },
+                error: function() {
+                    alert('Erro ao Enviar!');
+                }
+             })
+           })
+           
+         }

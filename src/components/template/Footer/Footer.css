@@ -1,0 +1,32 @@
+.footer {
+    background: rgb(8,8,66);
+    background: linear-gradient(90deg, rgba(8,8,66,0.9333333333333333) 69%, rgba(67,26,145,1) 100%, rgba(75,35,157,1) 100%, rgba(22,12,85,1) 100%, rgba(52,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    justify-content: center;
+    text-align: center;
+}
+.footer1 {
+    padding: 50px;
+}
+.footer1 h2 {
+    color: #FFF;
+    padding-bottom: 50px;
+    font-family: 'Merriweather', serif;
+}
+.footer1 .nameFooter {
+    text-decoration: none;
+}
+.social a {
+    margin: 20px;
+    color: #FFF;
+    padding-bottom: 100px;        
+}
+.social a:hover {
+    color: #503072;
+    transition: 0.26s;
+}
+.copy {
+    background-color: rgba(8,8,66,0.9);
+    text-align: center;   
+    padding: 30px;
+    color: #FFF;
+}

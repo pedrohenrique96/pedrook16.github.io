@@ -1,0 +1,72 @@
+.portifolio {  
+    text-align: center;
+}
+.portifolio h3 {
+    margin: 80px 0 60px 0;    
+    font-weight: 900;
+}
+.card:hover {
+   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+.card-body a {
+    border: solid 1px #503072;
+    color: #503072;    
+}
+.card-body a:hover{
+    background-color: #503072;
+    color: #FFF;
+    border: solid 1px #503072;
+    transition: 1s;
+}
+.overflow {
+    overflow: hidden;
+}
+.card-img-top {
+    transform:scale(1);
+    transition: transform 0.9s ease;
+}
+.card-img-top:hover {
+    transform:scale(1.6);
+}
+@media screen and (max-width: 480px){
+    
+.card {
+    width: 5rem;
+    align-items: center;
+    justify-content: center;   
+}
+div[class^="col-"] {
+    margin: 3px -10px !important;     
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 993px){
+    
+.card {
+    width: 10rem;
+}
+div[class^="col-"] {
+    margin: 3px -9px !important;     
+}
+}
+
+@media screen and (min-width: 994px) and (max-width: 1199px){
+    
+.card {
+    width: 13rem;
+}
+div[class^="col-"] {
+    margin: 3px -2px !important;     
+}
+}
+@media screen and (min-width: 1200px){
+  
+.card {
+    width: 17rem;    
+}
+div[class^="col-"] {
+    margin: 3px -2px !important;     
+    
+}
+
+}
